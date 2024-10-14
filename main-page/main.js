@@ -9,9 +9,14 @@ const loadFirstProds = async () => {
     fetch(url)
         .then((res) => res.json())
         .then((json) => {
+            if (json.length == 0) {
+                ebayDiv.innerHTML = "";
+                walmartDiv.innerHTML = "";
+                ebayDiv.append("Product not found!");
+                walmartDiv.append("Product not found!");
+                return;
+            }
             console.log(json);
-            ebayDiv.innerHTML = "";
-            walmartDiv.innerHTML = "";
             json.forEach((product) => {
                 let productCard = template.cloneNode(true);
                 productCard.style.display = "block";
