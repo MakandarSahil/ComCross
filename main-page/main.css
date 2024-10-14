@@ -1,19 +1,23 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-html,body{
+html,
+body {
     height: 100%;
     width: 100%;
     font-family: "Montserrat";
     background-color: #212434;
 }
 
-#search{
+#search {
     height: 10%;
     width: 100%;
     /* background-color: red; */
+    background-color: #6b6b6b4f;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,7 +26,7 @@ html,body{
     top: 0;
 }
 
-#search .search-box{
+#search .search-box {
     height: 50%;
     width: 70%;
     border-radius: 30px;
@@ -33,7 +37,7 @@ html,body{
     border: 2px solid #f2f2f5;
 }
 
-.search-icon{
+.search-icon {
     background-color: #fff;
     color: #000;
     height: 35px;
@@ -46,7 +50,7 @@ html,body{
     cursor: pointer;
 }
 
-#main{
+#main {
     height: fit-content;
     width: 100%;
     /* background-color: red; */
@@ -54,7 +58,7 @@ html,body{
     padding: 8vw 1vw;
 }
 
-.ebay{
+.ebay {
     height: 100%;
     width: 50%;
     /* background-color: yellow; */
@@ -64,7 +68,7 @@ html,body{
     align-items: center;
     gap: 4vw;
 }
-.walmart{
+.walmart {
     height: 100%;
     width: 50%;
     /* background-color: black; */
@@ -75,14 +79,15 @@ html,body{
     gap: 4vw;
 }
 
-.ebay h1,.walmart h1{
+.ebay h1,
+.walmart h1 {
     text-align: center;
     font-size: 1.8rem;
-    color: #C19EE0;
+    color: #c19ee0;
     margin-bottom: 2vw;
 }
 
-.product-card{
+.product-card {
     height: 30vw;
     width: 24vw;
     background-color: #fff;
@@ -90,7 +95,7 @@ html,body{
     padding: 1vw 0.5vw;
 }
 
-.product-img{
+.product-img {
     height: 65%;
     width: 100%;
     /* background-color: red; */
@@ -99,20 +104,19 @@ html,body{
     justify-content: center;
     align-items: center;
 }
-.product-img .img{
+.product-img .img {
     height: 80%;
     width: 60%;
     background-image: url(https://d1xbedroeo1z0l.cloudfront.net/fit-in/1100x1100/Croma.com/XRVOS_crm_crm309693_1100x1100.png);
     background-size: cover;
     background-position: center;
 }
-.product-info{
+.product-info {
     height: 35%;
     width: 100%;
     /* background-color: yellow; */
     border-radius: 14px;
     padding: 1vw 1vw;
 }
-.product-info h3{
-
+.product-info h3 {
 }
