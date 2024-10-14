@@ -18,6 +18,8 @@ html,body{
     align-items: center;
     justify-content: center;
     gap: 4vw;
+    position: fixed;
+    top: 0;
 }
 
 #search .search-box{
@@ -49,7 +51,7 @@ html,body{
     width: 100%;
     /* background-color: red; */
     display: flex;
-    padding: 2vw 1vw;
+    padding: 8vw 1vw;
 }
 
 .ebay{
